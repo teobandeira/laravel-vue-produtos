@@ -1,6 +1,8 @@
 @extends('master')
-
-@section('content')
-    <h2>Ver Produtos</h2>
-    <Produtos />
+@section('conteudo')
+    <div class="container">
+        <div class="row">
+            <Produtos />
+        </div>
+    </div>
 @endsection

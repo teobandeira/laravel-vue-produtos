@@ -19,16 +19,8 @@
 </script>
 
 <template>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="list-group">
-                    <li v-for="item in products" :key="item.id" class="list-group-item">
-                    <!-- <img v-if="item.featured_image" :src="item.featured_image.src" :alt="item.name"> -->
-                    <a :href="'http://127.0.0.1:8000/produto/' + item.slug" class="text-decoration-none">{{ item.name }}</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <div v-for="item in products" :key="item.id" class="col-md-4">
+        <img v-if="item.featured_image" :src="item.featured_image.src" :alt="item.name">
+        <a :href="'http://127.0.0.1:8000/produto/' + item.slug" class="text-decoration-none">{{ item.name }}</a>
     </div>
 </template>
