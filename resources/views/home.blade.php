@@ -1,5 +1,5 @@
 @extends('master')
 
-@section('content')
+@section('conteudo')
     <App />
 @endsection

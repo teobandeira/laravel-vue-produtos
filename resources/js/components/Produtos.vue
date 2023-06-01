@@ -44,7 +44,7 @@
 
 <template>
     <div v-for="item in products" :key="item.id" class="col-md-3 mb-3">
-        <div class="border border-info p-3 h-100">
+        <div class="border border-danger p-3 h-100">
             <div class="col-md-12">
                 <img v-if="item.imageSrc" :src="item.imageSrc" :alt="item.name" class="w-100 p-5" />
             </div>
