@@ -1,5 +1,7 @@
 @extends('master')
 
 @section('conteudo')
-    <App />
+    <div class="container">
+        <Produtos />
+    </div>
 @endsection
