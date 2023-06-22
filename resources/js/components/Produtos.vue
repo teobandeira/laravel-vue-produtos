@@ -44,15 +44,19 @@
 
 <template>
     <div v-for="item in products" :key="item.id" class="col-md-3 mb-3">
-        <div class="border border-danger p-3 h-100">
+        <div class="border border-success p-3 h-100">
             <div class="col-md-12">
                 <img v-if="item.imageSrc" :src="item.imageSrc" :alt="item.name" class="w-100 p-5" />
             </div>
             <div class="col-md-12">
                 <a :href="'http://madu-experience.com.br/produto/' + item.slug" class="text-decoration-none">{{ item.name }}</a>
             </div>
-            <div class="col-md-12">SKU - {{ item.sku }}</div>
-            <div class="col-md-12">Preço - {{ item.price }}</div>
+            <div class="col-md-12">
+              SKU - {{ item.sku }}
+            </div>
+            <div class="col-md-12">
+              Preço - {{ item.price }}
+            </div>
         </div>
     </div>
 </template>
