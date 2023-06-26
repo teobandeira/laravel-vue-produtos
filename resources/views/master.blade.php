@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja Online Madu</title>
     <link href="{{ asset('css/bootstrap.5.1.3.min.css') }}" rel="stylesheet" crossorigin="anonymous">
-    <script src="{{ asset('js/bootstrap.bundle.min.js') }}" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}" crossorigin="anonymous"></script>
     <link href="{{ asset('css/headers.css') }}" rel="stylesheet" crossorigin="anonymous">
 </head>
 <body>

@@ -5,6 +5,8 @@
         <Slide />
     </div>
 @endsection
+
+
 @section('produtos')
     <div class="container mt-4">
         <div class="row">
